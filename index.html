@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page title</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+        <style>
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color:#dde1e7;
+    
+}
+nav{
+    width:100%;
+    position:sticky;
+    top:0px;
+    
+}
+nav .box{
+    border-bottom:2px solid #29B2FE;
+    overflow:hidden;
+    padding:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:white;  
+    
+    width:100%;
+    
+}
+
+
+.logo{
+    width:30%;
+    float:left;
+    animation-name:fuck;
+    animation-duration: 1s;
+    
+   
+    
+}
+.logo h2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:25px;
+    border:none;
+    
+}
+.logo h2 span{
+    color:#29B2FE;
+    margin-left :5px;
+}
+.navbar{
+    width:67%;
+    float:right;
+    text-align:right;
+               
+}
+.manu li{
+    width:12%;
+    display:inline-block;
+    text-transform:uppercase;
+    
+    margin:13px 7px;
+    text-align:center;
+    font-size:80%;
+    font-weight:bold;
+    animation-name:fuck;
+    animation-duration: 1s;
+}
+.manu li a{
+    text-decoration:none;
+    color:#29B2FE;
+    display:block;
+    padding:15px 5px;
+}
+.manu{
+    margin-top:0px;
+    
+}
+.navbtn{
+    display:none;
+    float:right;
+}
+.allbtn{
+    border:0;
+    outline:0;
+    font-size:22px;
+    border-radius:10px;
+    text-shadow:1px 1px 0 #fff;
+    font-weight:bold ;
+    transition:all 0.1s ease-in-out;
+    font-weight:600;
+    box-shadow:-5px -5px 20px #fff,5px 5px 20px #babecc;
+    background-color: #ebecf0;
+    color:#29B2FE;
+}
+.allbtn:hover{
+    box-shadow:-2px -2px 5px #fff,2px 2px 5px #babecc;
+}
+.allbtn:active{
+    box-shadow:inset 1px 1px 2px #babecc,inset -1px -1px 2px #fff;
+}
+  @keyframes fuck{
+    from{transform:scale(0.1)}
+    to{transform:scale(1.0)}
+} 
+
+<!-- Home -->   
+
+.homebar{
+    margin-top:50%;
+}
+.home{
+    background-image:url("../all photo/neno1.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    margin-top:0px;
+    overflow:hidden;
+}
+.profileimg{
+    width:45%;
+    padding:6%;
+    display:inline-block ;
+    float:left;
+    
+}
+.profileimg .profile{
+    width:74%;
+    border-radius:50%;
+    padding:5%;
+    margin-left:12%;
+    background: #F2F3F7;
+    box-shadow:  -11px -11px 22px #c2c2c6,
+             11px 11px 22px #ffffff;
+    animation-name:fuck;
+    animation-duration: 1s;
+}
+.profileimg .profile img{
+    width:100%;  
+    border-radius:50%;    
+}
+
+.profilename{
+    float:right;
+    width:35%;
+    padding:8% 2%;
+    
+}
+.prname{
+    width:90%;
+    justify-content:center;
+    padding:50px 10px;
+    text-align:center;
+    margin-top:20px;
+    border-radius: 17px;
+    background: #ffffff;
+    box-shadow: inset 6px -6px 12px #dbdbdb,
+            inset -6px 6px 12px #ffffff;
+    margin:auto;
+    animation-name:fuck;
+    animation-duration: 1s;
+}
+.prname h3{
+    text-align:center;
+    font-size:30px;
+}
+.prname h6{
+    text-align:center;
+    margin-top:7%;
+    font-size:15px;
+}
+.prname h3 span{
+    color:#29B2FE;
+}
+.homebtn{
+    width:200px;
+    margin-top:10%;
+}
+.prname button{
+    margin-top:10%;
+}
+.prname .homebtn a{
+    display:block;
+    text-decoration:none;
+    color:#29B2FE;
+    padding:20px;
+}
+<!-- SKILS -->
+section{
+            border:1px solid yellow;
+            width:100%;
+            
+        }
+        h2{
+            border-bottom:2px solid #80ffff;
+            display:inline-block;
+            text-align:center;
+            margin:auto;
+            padding:0px 20px;  
+            text-align:center;
+            margin-top:0px;
+            font-size:50px;
+            
+        }
+        .skilscontainer{
+            width:80%;
+            padding:5%;
+            margin:0 auto;
+            text-align:center;
+            margin:0 auto;
+            border-radius:12px;
+            box-shadow:-3px -3px 7px #ffffff73,3px 3px 5px rgba(94,104,121,.288);
+            margin-top:15px;
+            margin-bottom:15px;
+        }
+        .skilsbox{
+            height:15px;
+        
+            margin:auto;
+            overflow:hidden;
+            padding:20px;
+            width:88%;
+            border-radius:12px;
+            background-color:#dde1e7;
+            box-shadow:-3px -3px 7px #ffffff73,3px 3px 5px rgba(94,104,121,.288);
+            margin-top:20px;
+        }
+        .skilsname{
+            display:inline-block;
+            width:20%;
+            float:left;
+            font-size:20px;
+        }
+        .skils{
+            width:75%;
+            float:right;
+            
+            
+            height:100%;
+            margin:0 auto;
+            background-color:#dde1e7;
+            box-shadow:inset -3px -3px 7px #ffffff73,inset 3px 3px 5px rgba(94,104,121,.288);
+            border-radius:12px ;
+        }
+        .skilslevel{
+            height:100%;
+            background-color:#800080;
+            border-radius:12px;
+            animation:2s taposh ease forwards;
+        }
+  <!-- ABOUT BAR -->
+  .aboutcontainer{
+            
+            overflow:hidden;
+            clear:both;
+        }
+        .abimage img{
+            width:100%;
+            border-radius:5px;
+        }
+        .abtext .abbtn a{
+            text-decoration:none;
+            color:red;
+            display:block;
+            padding:13px 35px;
+        }
+        .abimage{
+            width:45%;
+            padding:10px;
+            float:left;
+            border-radius:12px;
+            box-shadow:-3px -3px 7px #ffffff73,3px 3px 5px rgba(94,104,121,.288);
+            margin:10px;
+        }
+        .aboutcontainer h2{
+            border-bottom:2px solid #80ffff;
+            display:block;
+            text-align:center;
+            margin:auto;
+            padding:0px 20px;  
+            width:250px;
+            margin-top:0px;
+            font-size:50px;
+        
+        }
+        .abtext{
+            width:40%;
+            padding:10px;
+            float:right;
+            border-radius:12px;
+            box-shadow:-3px -3px 7px #ffffff73,3px 3px 5px rgba(94,104,121,.288);
+            margin:10px;
+            font-size:20px;
+            line-height:30px;
+            text-align:center;
+            
+        }
+        .abbtn{
+    margin:20px;
+}
+<!-- CONTACT ME -->
+.formcontainer{
+            width:85%;
+            margin:auto;
+            padding:20px;
+            overflow:hidden;
+        }
+        .formcontainer form{
+                width:400px;
+                overflow:hidden;
+                padding:30px;
+                
+            }
+        .formcontainer form{
+            border-radius: 17px;
+            background-color:#dde1e7;
+            box-shadow:-3px -3px 7px #ffffff73,3px 3px 5px rgba(94,104,121,.288);
+            margin:auto;
+        }
+        .formcontainer form .contacttitle{
+            text-align:center;
+        }
+        .formcontainer form .contacttitle h2{
+            border-bottom :2px solid #29B2FE;
+            padding:5px 20px;
+            display:inline-block ;
+        }
+        
+        .formcontainer form .ipt .inp{
+            box-shadow:inset 2px 2px 5px #babecc,inset -5px -5px 10px #fff;
+            transition:all 0.2s ease-in-out;
+            appearance:none;
+            -webkit-appearance:none;
+            border:0;
+            outline:0;
+            font-size:16px;
+            border-radius:10px;
+            margin-top:10px;
+            padding:15px;
+            background-color: #ebecf0;
+            text-shadow:1px 1px 0 #fff;
+            }
+            .formcontainer form .ipt .inp:focus{
+                box-shadow:inset 1px 1px 2px #babecc,inset -1px -1px 2px #fff;
+            }
+            .formcontainer form .ipt{
+                text-align:center;
+            }
+            .formcontainer form .submit .subbtn{
+            width:260px;
+            padding:20px;
+            
+        }
+        .formcontainer form .submit{
+            text-align:center ;
+            margin-top:10px;
+        }
+        #about{
+            display:block;
+        }
+        section{
+            display:block;
+            overflow:hidden;
+            margin-top:10px;
+            
+            
+        }
+        @keyframes taposh{
+            0%{
+                width:10%;
+            }
+        }
+        
+@media(max-width:650px){
+    nav{
+        width:100%;
+        display:inline-block;
+    }
+    .logo{
+        width:40%;
+    }
+    .logo h2{
+        width:100%;
+    }
+    
+   .navbar{
+       width:100%;
+       border-bottom:2px solid #29B2FE;
+       background-color:white;
+       transform:scaleY(0);
+       transform-origin:top;
+       margin-left:-5px;
+       position:absolute ;
+       margin-top:50px;
+       padding:8px 0px;
+       
+   }
+   .manu li a{
+       padding:20px 15px;
+   }
+    .manu li{
+        display:block;
+        width:90%;
+        margin:auto;
+        margin-top:8px;  
+    }
+    .btn{
+        display:block;
+        color:#29B2FE;
+    }
+    
+    .box .navbtn{
+        padding:10px 15px;
+        animation-name:fuck;
+        animation-duration: 1s;
+    }
+    
+    .box .btn2{
+        padding:10px 15px;
+    }
+    nav .box{
+        display:inline-block;
+    }
+   #love{
+        transition: 1s;
+        transform:scaleY(1);
+        transform-origin:top;
+    }
+    #hidden{
+        transform:scaleY(0);
+        transform-origin:top;
+        transition: 1s;
+    }
+    .prname h3{
+        font-size:15px;
+    }
+    .prname h6{
+        font-size:60%;
+    }
+    .homebtn{
+        width:90%; 
+    }
+    .prname .homebtn a{
+        padding:8px;
+        font-size:80%;
+        margin:auto;
+    }
+    .prname{
+    width:90%;
+    justify-content:center;
+    padding:15px 7px;
+    text-align:center;
+    border-radius: 17px;
+    background: #ffffff;
+    box-shadow: inset 6px -6px 12px #dbdbdb,
+            inset -6px 6px 12px #ffffff;
+            margin:auto;
+}  
+    .skilscontainer h2{
+                font-size:20px;
+            }
+            .skilsname{
+            font-size:10px;
+        }
+        .abimage{
+                width:90%;
+                float:none;
+                margin:auto;
+                margin-top:10px; 
+            }
+            .abtext{
+                width:90%;
+                float:none;
+                margin:auto;
+                margin-top:10px; 
+                font-size:15px;
+                line-height:25px;
+                margin-bottom:15px;
+            }
+            .aboutcontainer h2{
+                font-size:20px;
+            }
+            .contacttitle h2{
+                font-size:20px;
+            }
+            .formcontainer form{
+                width:90%;
+                overflow:hidden;
+                padding:20px;
+                background-color:#dde1e7;
+            }
+            .logo h2{
+                border:none;
+                font-size:20px;
+                margin-top:6px;
+            }
+        
+
+    
+    
+}
+
+
+           
+
+
+           
+        </style>
+        
+    </head>
+    <body>
+        <nav class="container">
+            <div class="box">
+                <div class="logo">
+                    <h2><span>T</span>aposh <span>H</span>alder</h2>
+                </div>
+               
+                <button class="btn navbtn allbtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="btn2 navbtn allbtn">
+                        <i class="fa-solid fa-close"></i>
+                    </button>
+                    
+                <div class="navbar">
+                    <ul class="manu">
+                        <li class="allbtn"><a href="#home">Home</a></li>
+                        <li class="allbtn"><a href="#skils">skils</a></li>
+                        <li class="allbtn"><a href="#">survice</a></li>
+                        <li class="allbtn"><a href="#about">about</a></li>
+                        <li class="allbtn"><a href="#contact">contect</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        
+        <section class="homebar"id="home">
+            <div class="home">
+                <div class="profileimg">
+                    <div class="profile">
+                        <img src="profile.jpg">
+                    </div>
+                </div>
+                <div class="profilename">
+                    <div class="prname">
+                        <h3><i><span>T</span>aposh <span>H</span>alder</i></h3>
+                        <h6><i>I Am A Front-End Developer</i></h6>
+                        <button class="allbtn homebtn"><a href="#contact">Hire</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skilsbar" id="skils">
+        <div class="skilscontainer">
+            <h2>SKILS</h2>
+            
+            <div class="skilsbox">
+                <div class="skilsname">Html</div>
+                <div class="skils">
+                    <div class="skilslevel"style="width:95%;"></div>
+                </div>
+                
+            </div>
+            <div class="skilsbox">
+                <div class="skilsname">Css</div>
+                <div class="skils">
+                    <div class="skilslevel"style="width:80%;"></div>
+                </div>
+                
+            </div>
+            <div class="skilsbox">
+                <div class="skilsname">Java script</div>
+                <div class="skils">
+                    <div class="skilslevel"style="width:50%;"></div>
+                </div>
+                
+            </div>
+            <div class="skilsbox">
+                <div class="skilsname">Jquery</div>
+                <div class="skils">
+                    <div class="skilslevel"style="width:30%;"></div>
+                </div>
+                
+            </div>
+            <div class="skilsbox">
+                <div class="skilsname">Bootstrap</div>
+                <div class="skils">
+                    <div class="skilslevel"style="width:10%;"></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <section id="about">
+        <div class="aboutcontainer">
+            <h2>ABOUT</h2>
+            <div class="abimage">
+                <img src="profile.jpg"/>
+            </div>
+            <div class="abtext">
+                <p>Hello, I am Taposh Halder and I am a font-end Developed. I know Html, Css, Java Script, Jquery, Bootstrap. Hello, I am Taposh Halder and I am a font-end Developed. I know Html, Css, Java Script, Jquery, Bootstrap.</p>
+                <button class="allbtn abbtn"><a href="#contact">Contact me</a></button>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="formcontainer">
+        <form action="https://formsubmit.co/taposhkumer1234@gmail.com"method="POST">
+            <div class="contacttitle"><h2>Contact me</h2></div>
+            
+            
+           
+            <div class="ipt"><input type="text"placeholder="first name"name="first name"class="inp"></div>
+           
+            <div class="ipt"><input type="text"placeholder="Last name"name="last name"class="inp"></div>
+            
+            <div class="ipt"><input type="email"placeholder="E-mail"name="email"class="inp"></div>
+            
+            <div class="ipt"><textarea name="message"cols="23"rows="3"class="inp"></textarea></div>
+            <div class="submit"><input class="allbtn subbtn"type="submit"value="SEND"/></div>
+        </form>
+        </div>
+    </section>
+        <script type="text/javascript">
+            
+
+function show(){
+    document.getElementsByClassName("navbar")[0].setAttribute("id","love");
+    document.getElementsByClassName("btn")[0].setAttribute("style","display:none");
+    document.getElementsByClassName("btn2")[0].setAttribute("style","display:block");
+}
+document.getElementsByClassName("btn")[0].addEventListener("click",show);
+
+function hide(){
+    document.getElementsByClassName("navbar")[0].setAttribute("id","hidden");
+    document.getElementsByClassName("btn")[0].setAttribute("style","display:block");
+    document.getElementsByClassName("btn2")[0].setAttribute("style","display:none");
+}
+document.getElementsByClassName("btn2")[0].addEventListener("click",hide);
+
+        </script>
+    </body>
+</html>
